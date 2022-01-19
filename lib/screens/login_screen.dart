@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/screens/main_screen.dart';
+import 'package:get/get.dart';
 
 
 
@@ -51,7 +53,7 @@ class LoginScreen extends StatelessWidget {
                     minimumSize: Size(320, 40),
                   ),
                     onPressed: (){
-
+                    Get.to(() => MainScreen(), transition: Transition.leftToRight);
                     }, child:Text('Login', style: TextStyle(fontSize: 20),) ) ,
 
                 SizedBox(height: 25,),
