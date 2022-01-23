@@ -35,10 +35,10 @@ List<User> users = [
 ];
 
 List<Post> posts = [
-   Post(comments: 250, title: 'Post 1', imageUrl: 'assets/images/post0.jpg', likes: 70, location: 'location 1'),
-   Post(comments: 150, title: 'Post 2', imageUrl: 'assets/images/post1.jpg', likes: 80, location: 'location 2'),
-   Post(comments: 80, title: 'Post 3', imageUrl: 'assets/images/post2.jpg', likes: 50, location: 'location 3'),
-   Post(comments: 70, title: 'Post 4', imageUrl: 'assets/images/post3.jpg', likes: 60, location: 'location 4'),
-   Post(comments: 120, title: 'Post 5', imageUrl: 'assets/images/post4.jpg', likes: 90, location: 'location 5'),
-   Post(comments: 300, title: 'Post 6', imageUrl: 'assets/images/post5.jpg', likes: 100, location: 'location 6'),
+   Post(comments: 250, title: 'Post 1', imageUrl: 'assets/images/post0.jpg', likes: 70, location: 'Location 1'),
+   Post(comments: 150, title: 'Post 2', imageUrl: 'assets/images/post1.jpg', likes: 80, location: 'Location 2'),
+   Post(comments: 80, title: 'Post 3', imageUrl: 'assets/images/post2.jpg', likes: 50, location: 'Location 3'),
+   Post(comments: 70, title: 'Post 4', imageUrl: 'assets/images/post3.jpg', likes: 60, location: 'Location 4'),
+   Post(comments: 120, title: 'Post 5', imageUrl: 'assets/images/post4.jpg', likes: 90, location: 'Location 5'),
+   Post(comments: 300, title: 'Post 6', imageUrl: 'assets/images/post5.jpg', likes: 100, location: 'Location 6'),
 ];
